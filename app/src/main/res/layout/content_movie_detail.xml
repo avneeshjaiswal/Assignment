@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.MovieDetailActivity"
+    tools:showIn="@layout/activity_movie_detail">
+
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Movie Title" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txtValueStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Movie Overview" />
+
+        <TextView
+            android:id="@+id/txt_overview"
+            style="@style/txtValueStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Movie Budget" />
+
+        <TextView
+            android:id="@+id/txt_budget"
+            style="@style/txtValueStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Homepage" />
+
+        <TextView
+            android:id="@+id/txt_home_page"
+            style="@style/txtValueStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Language" />
+
+        <TextView
+            android:id="@+id/txt_lang"
+            style="@style/txtValueStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Imdb Id" />
+
+        <TextView
+            android:id="@+id/txt_imdb"
+            style="@style/txtValueStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Poster Link" />
+
+        <TextView
+            android:id="@+id/txt_poster"
+            style="@style/txtValueStyle" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Movie Popularity" />
+
+        <TextView
+            android:id="@+id/txt_popularity"
+            style="@style/txtValueStyle" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Movie Release Data" />
+
+        <TextView
+            android:id="@+id/txt_date"
+            style="@style/txtValueStyle" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Movie Revenue" />
+
+        <TextView
+            android:id="@+id/txt_revenue"
+            style="@style/txtValueStyle" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Movie Runtime" />
+
+        <TextView
+            android:id="@+id/txt_runtime"
+            style="@style/txtValueStyle" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Movie Status" />
+
+        <TextView
+            android:id="@+id/txt_status"
+            style="@style/txtValueStyle" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Avg. Voting" />
+
+        <TextView
+            android:id="@+id/txt_avg_vote"
+            style="@style/txtValueStyle" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/linearlayout">
+
+        <TextView
+            style="@style/txtTitleStyle"
+            android:text="Vote Count" />
+
+        <TextView
+            android:id="@+id/txt_count"
+            style="@style/txtValueStyle" />
+    </LinearLayout>
+</LinearLayout>
+
